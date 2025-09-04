@@ -144,6 +144,20 @@ body::after {
     background: radial-gradient(circle, rgba(252, 224, 229, 0.6) 0%, transparent 70%);
 }
 
+/* Salus branding */
+.salus-branding {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    opacity: 0.6;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.5px;
+}
+
 #app {
     min-height: 100vh;
     position: relative;
